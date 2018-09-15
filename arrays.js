@@ -38,5 +38,5 @@ function removeElementFromBeginningOfArray(chocolateBars){
   return chocolateBars;
 }
 function removeElementFromBeginningOfArray(chocolateBars){
-  var lessCh 
+ chocolateBars = chocolateBars.slice(1)
 }
