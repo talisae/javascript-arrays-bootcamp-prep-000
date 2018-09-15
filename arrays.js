@@ -38,3 +38,7 @@ function removeElementFromBeginningOfArray(chocolateBars){
   chocolateBars.slice(1);
   return chocolateBars;
 }
+function destructvelyRemoveElementFromEndOfArray(chocolateBars){
+  chocolateBars.pop();
+  return chocolateBars;
+}
